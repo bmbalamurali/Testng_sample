@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+	<listeners>
+		<listener class-name="test.Listeners"></listener>
+	</listeners>
+  	<test name="DataProvider">
+	  <classes>
+		  <class name="test.Sixth_test">
+		  <methods>
+			  <include name="tab_frtc_lg_hom_05"></include>
+		  </methods>
+		  </class>
+      </classes>
+  	</test>
+</suite>

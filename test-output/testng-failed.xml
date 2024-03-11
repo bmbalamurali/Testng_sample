@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="mysite"/>
+  <test thread-count="2" parallel="tests" name="Personal Loan(failed)">
+    <parameter name="APIKey" value="API"/>
+    <classes>
+      <class name="test.Second_test">
+        <methods>
+          <include name="stc_PL_01"/>
+          <include name="After_Test_st"/>
+          <include name="prerequisite"/>
+          <include name="After_Suite"/>
+        </methods>
+      </class> <!-- test.Second_test -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
